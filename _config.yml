@@ -5,6 +5,14 @@ title: My sample book
 author: The Jupyter Book Community
 logo: logo.png
 
+# Tell Jupyter-Book (and the underlying Sphinx) to skip everything under .venv
+exclude_patterns:
+  - ".venv/*"
+
+# (Optionally, if you also want to 
+#  only build files listed in your TOC:)
+only_build_toc_files: true
+
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:

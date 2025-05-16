@@ -1,2 +1,2 @@
 #!/bin/bash
-poetry run jupyter-book build site
+poetry run jupyter-book build .
