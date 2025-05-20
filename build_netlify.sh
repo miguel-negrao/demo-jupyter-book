@@ -8,9 +8,6 @@ python -m poetry config virtualenvs.in-project true
 python -m poetry install --no-interaction --no-root
 
 # Build HTML
-python -m poetry run jupyter-book build site
-
-# Expose requirements for Colab
-cp site/requirements.txt site/_build/html/
+python -m poetry run jupyter-book build .
 
 echo "✅  Jupyter-Book built and ready for deploy"

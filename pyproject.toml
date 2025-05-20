@@ -11,6 +11,7 @@ jupyter-book = "^1.0.4.post1"
 matplotlib = "^3.10.3"
 numpy = "^2.2.5"
 jupytext = "^1.17.1"
+jupyterlab-myst = "^2.4.2"
 
 
 [build-system]

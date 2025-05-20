@@ -1,7 +1,7 @@
 #!/bin/bash
-if [ -d "site/_build" ]; then
-    echo deleting site/_build
-    rm -rf site/_build
+if [ -d "_build" ]; then
+    echo deleting _build
+    rm -rf _build
 fi
 
-poetry run jupyter-book build site
+poetry run jupyter-book build .
